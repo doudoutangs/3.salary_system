@@ -1,0 +1,76 @@
+#salary设置
+salary:
+  app-name: 薪资管理系统
+  isRedisSession: false
+spring:
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: templates/
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: templates/**,static/**
+#  #redis设置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+
+  #数据源设置 主
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/salary?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    db-name: salary
+    username: root
+    password: mysql
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT1FROMDUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    filters: stat,wall,log4j
+    logSlowSql: true
+
+#beetl设置
+beetl:
+  delimiter-statement-start: \@   #开始结束标签(yaml不允许@开头)
+  delimiter-statement-end: null
+  resource-tagroot: common/tags   #自定义标签文件Root目录和后缀
+  resource-tagsuffix: tag
+  resource-auto-check: true
+
+#mybatisplus设置
+mybatis-plus:
+  mapper-locations: classpath*:com/salary/modules/**/mapper/xml/*.xml
+  global-config:
+    id-type: 0  #0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)
+    db-column-underline: true
+    refresh-mapper: true
+    db-config:
+      field-strategy: not_empty
+  configuration:
+    cache-enabled: true #配置的缓存的全局开关
+    lazyLoadingEnabled: true #延时加载的开关
+    multipleResultSetsEnabled: true #开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
+#log
+logging:
+  level.root: info
+  level.com.salary: debug
+  path: /logs/
+  file: salary.log
+server:
+  port: 8886
+  servlet:
+    context-path: /
+#上下班时间
+up_time: 9
+down_time: 18
+over_time: 20
