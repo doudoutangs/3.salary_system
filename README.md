@@ -1,5 +1,4 @@
 # 薪资管理系统
-#### 咨询请加QQ: 553039957
 ## 一、系统介绍
 这是一个界面简洁的薪资管理系统，虽然界面简单，但其工资项配置，与考勤挂钩，自动核算功能强大，并有完整的从菜单到按钮的操作权限控制。
 
@@ -126,18 +125,16 @@
 ![启动项目](https://raw.githubusercontent.com/doudoutangs/salary_system/main/%E8%96%AA%E8%B5%84%E7%AE%A1%E7%90%86/0-99-%E5%90%AF%E5%8A%A8.png)
 4. 访问：http://localhost:8886（账号admin/admin）
 
-## 六、特别说明
-本项目可做公司内网使用，也可做自学练习亦可作毕业设计。完整系统源代码以及指导有偿提供，也可付费咨询其他项目，如不愿意付费的勿扰。
-如意愿付费请加QQ详谈，QQ:553039957
 
-## 七、提醒
-最近有同学反映有人在淘宝，B站等渠道贩卖我的源代码，本人在此郑重声明，目前只有唯一的购买咨询方式就是加我QQ:553039957.
-其他渠道都是非法的，在非法渠道您可能花了钱买到的不是完整系统，请各位真心喜欢本项目的朋友不要上当受骗，请走唯一正规渠道，我只对这唯一渠道的服务负责。
-## 八、其他项目
-1. [人事管理系统](https://gitee.com/doudoutang/person_system)
-2. [薪资管理系统](https://gitee.com/doudoutang/salary_system)
-3. [OA系统](https://gitee.com/doudoutang/bankOA)
-4. [招投标管理系统](https://gitee.com/doudoutang/bid-system)
-5. [绩效考核系统](https://gitee.com/doudoutang/assess_system)
-6. [就业管理系统](https://gitee.com/doudoutang/eta_system)
-
+## 六、合作说明
+1. 合作唯一渠道：QQ:553039957详谈。本项目只在gitee和github,gitcode这3个平台上发布，其余平台均为盗版。
+2. gitcode主页： https://gitcode.net/tbb414 (推荐)
+3. github主页：https://github.com/doudoutangs
+4. gitee(码云)主页：https://gitee.com/doudoutang
+## 七、其他项目
+1. [人事管理系统](https://gitcode.net/tbb414//person_system)
+2. [薪资管理系统](https://gitcode.net/tbb414//salary_system)
+3. [OA系统](https://gitcode.net/tbb414//oa_system)
+4. [招投标管理系统](https://gitcode.net/tbb414//bid_system)
+5. [绩效考核系统](https://gitcode.net/tbb414//assess_system)
+6. [就业管理系统](https://gitcode.net/tbb414/eta_system)
