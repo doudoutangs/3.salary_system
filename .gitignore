@@ -1,0 +1,5 @@
+/target/
+/logs/
+/.idea
+/salary-web/target/
+/salary.log

@@ -29,12 +29,12 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 /**
- * <p>
- * 前端控制器
- * </p>
- *
- * @author sun
- * @since 2019-05-14
+ * @author: QQ:553039957
+ * @Date: 2023/9/25 15:41
+ * @Description:
+ * 1. gitcode主页： https://gitcode.net/tbb414 （推荐）
+ * 2. github主页：https://github.com/doudoutangs
+ * 3. gitee(码云)主页：https://gitee.com/spdoudoutang
  */
 @Controller
 @RequestMapping("/salary/leave")
