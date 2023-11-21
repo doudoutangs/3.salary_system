@@ -1,4 +1,4 @@
-# 薪资管理系统
+# 3.薪资管理系统
 ## 一、系统介绍
 这是一个界面简洁的薪资管理系统，虽然界面简单，但其工资项配置，与考勤挂钩，自动核算功能强大，并有完整的从菜单到按钮的操作权限控制。
 
@@ -126,15 +126,15 @@
 4. 访问：http://localhost:8886（账号admin/admin）
 
 
-## 六、源码说明
+## 六、说明
 0. QQ:553039957
 1. gitcode主页： https://gitcode.com/user/tbb414 (推荐)
 2. github主页：https://github.com/doudoutangs
-3. gitee(码云)主页：https://gitee.com/doudoutang
 ## 七、其他项目
-1. [人事管理系统](https://gitcode.com/tbb414/person_system)
-2. [薪资管理系统](https://gitcode.com/tbb414/salary_system)
-3. [OA系统](https://gitcode.com/tbb414/oa_system)
-4. [招投标管理系统](https://gitcode.com/tbb414/bid_system)
+1. [招投标管理系统](https://gitcode.com/tbb414/bid_system)
+2. [OA系统](https://gitcode.com/tbb414/oa_system)
+3. [薪资管理系统](https://gitcode.com/tbb414/salary_system)
+4. [人事管理系统](https://gitcode.com/tbb414/person_system)
 5. [绩效考核系统](https://gitcode.com/tbb414/assess_system)
-6. [就业管理系统](https://gitcode.net/tbb414/eta_system)
+6. [就业管理系统](https://gitcode.com/tbb414/eta_system)
+7. [图书管理系统]（开发中）
